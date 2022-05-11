@@ -1,6 +1,4 @@
 ﻿using Books.Data;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 
 namespace BooksStore.Core.Interfaces
 {
