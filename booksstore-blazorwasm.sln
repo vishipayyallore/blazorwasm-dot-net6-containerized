@@ -11,19 +11,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "webapi", "webapi", "{C00805
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "webapp", "webapp", "{F2F1B722-2BA7-44E1-B573-210394DE8FF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BooksStore.Core", "source\common\BooksStore.Core\BooksStore.Core.csproj", "{66E4E3FB-8B50-4118-B354-95B3E7F87666}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BooksStore.Core", "source\common\BooksStore.Core\BooksStore.Core.csproj", "{66E4E3FB-8B50-4118-B354-95B3E7F87666}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Books.Data", "source\common\Books.Data\Books.Data.csproj", "{5CD66C0F-D2A1-49D0-9896-EAA7DCDA34E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Books.Data", "source\common\Books.Data\Books.Data.csproj", "{5CD66C0F-D2A1-49D0-9896-EAA7DCDA34E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Books.API", "source\webapi\Books.API\Books.API.csproj", "{880ECE00-0601-4BD3-862D-80E6FDAB1C52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Books.API", "source\webapi\Books.API\Books.API.csproj", "{880ECE00-0601-4BD3-862D-80E6FDAB1C52}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "datastore", "datastore", "{5396B911-0F83-49FC-90D3-0E4E3C82D828}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "BooksDataStore", "source\datastore\BooksDataStore\BooksDataStore.sqlproj", "{D9BBD126-6AD1-4BE8-8535-064C59063EA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BooksStore.SqlDal", "source\common\BooksStore.SqlDal\BooksStore.SqlDal.csproj", "{72DAC29F-692A-4927-9CB7-63FE664B8DB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BooksStore.SqlDal", "source\common\BooksStore.SqlDal\BooksStore.SqlDal.csproj", "{72DAC29F-692A-4927-9CB7-63FE664B8DB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BooksStore.CacheDal", "source\common\BooksStore.CacheDal\BooksStore.CacheDal.csproj", "{206B24A0-473D-45E9-838C-83E82C11BB48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BooksStore.CacheDal", "source\common\BooksStore.CacheDal\BooksStore.CacheDal.csproj", "{206B24A0-473D-45E9-838C-83E82C11BB48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BooksStore.Bll", "source\common\BooksStore.Bll\BooksStore.Bll.csproj", "{7F822EE6-3332-4277-B4BA-E02A048269C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{206B24A0-473D-45E9-838C-83E82C11BB48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{206B24A0-473D-45E9-838C-83E82C11BB48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{206B24A0-473D-45E9-838C-83E82C11BB48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F822EE6-3332-4277-B4BA-E02A048269C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F822EE6-3332-4277-B4BA-E02A048269C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F822EE6-3332-4277-B4BA-E02A048269C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F822EE6-3332-4277-B4BA-E02A048269C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -72,6 +78,7 @@ Global
 		{D9BBD126-6AD1-4BE8-8535-064C59063EA6} = {5396B911-0F83-49FC-90D3-0E4E3C82D828}
 		{72DAC29F-692A-4927-9CB7-63FE664B8DB4} = {886A4B84-7BC3-4219-A613-0DBC3EC54228}
 		{206B24A0-473D-45E9-838C-83E82C11BB48} = {886A4B84-7BC3-4219-A613-0DBC3EC54228}
+		{7F822EE6-3332-4277-B4BA-E02A048269C3} = {886A4B84-7BC3-4219-A613-0DBC3EC54228}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4AE33F20-3DBD-4320-85D3-21098147DC50}
